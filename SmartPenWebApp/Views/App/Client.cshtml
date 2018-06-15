@@ -1,0 +1,23 @@
+﻿@*{
+    //ViewBag.Title = "Client";
+}*@
+
+<div class="well">
+    <div>
+        <label>Download</label>
+        <button>Download Document</button>
+        <br />
+
+        <form asp-controller="app" asp-action="ConnectPen">
+            <label>Connect</label>
+            <button type="submit">Connect SmartPen</button>
+        </form>
+
+        
+        <br />
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000"></canvas>
+        <br />
+        <label>Sign Document</label>
+        <button>Sign</button>
+    </div>
+</div>
